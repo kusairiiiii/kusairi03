@@ -7,6 +7,12 @@ public class proyektoraksi {
         s.setHarga(100000);
         
         s.cetakInfo();
+        System.out.print("Jenisnya \t: ");
+        System.out.println(s.getJenis());
+        System.out.print("Merknya \t: ");
+        System.out.println(s.getMerk());
+        System.out.print("Harganya \t: ");
+        System.out.println(s.getHarga());
         
     }
 }
