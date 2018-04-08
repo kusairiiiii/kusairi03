@@ -14,5 +14,14 @@ public class proyektoraksi {
         System.out.print("Harganya \t: ");
         System.out.println(s.getHarga());
         
+        proyektorapple sm = new proyektorapple();
+        sm.setJenis("Karet");
+        sm.setMerk("Hitam");
+        sm.setHarga(10000);
+        sm.setproyektorapple("koko");
+        sm.cetakInfo();
+        System.out.println("Jenis \t:"+sm.getproyektorapple());
+        sm.throttle();
+        
     }
 }
