@@ -1,7 +1,7 @@
 package kusairi03;
 
 public class proyektor {
-     string  merk;
-     string warna;
-     double harga;
+   private String jenis;
+   private String merk;
+   private double harga;
 }
